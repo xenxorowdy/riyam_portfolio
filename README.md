@@ -5,8 +5,8 @@
 ## Running Locally
 
 ```sh-session
-git clone https://github.com/riyam/riyam.com.git
-cd riyam.com
+https://github.com/xenxorowdy/riyam_portfolio.git
+cd riyam_portfolio.git
 ```
 
 Create a `.env` file similar to [`.env.example`](https://github.com/riyam/riyam.com/blob/main/.env.example).

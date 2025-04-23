@@ -1,6 +1,6 @@
 import { Navigation } from "../components/nav";
 
-const Expirence = () => {
+const Experience = () => {
   const dentiraList = [
     "Engineered Rx processing workflows using Python & REST APIs - 25% faster processing",
     "Enhanced mobile UI/UX with React - 30% higher engagement",
@@ -34,7 +34,7 @@ const Expirence = () => {
        <Navigation/>
     <div className=" py-8 px-4 sm:px-6 md:px-8">
       <h3 className="text-lg sm:text-xl font-semibold text-zinc-200 my-10 text-center">
-        Expirence
+        Experience
       </h3>
       <div className="max-w-3xl mx-auto space-y-4 sm:space-y-6 md:space-y-8">
         <div className="border border-zinc-700 rounded-lg p-4 sm:p-6 bg-gradient-to-b from-zinc-900/50 to-zinc-900/30">
@@ -87,4 +87,4 @@ const Expirence = () => {
   );
 };
 
-export default Expirence;
+export default Experience;

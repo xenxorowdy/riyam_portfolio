@@ -4,7 +4,7 @@ import Particles from "./components/particles";
 import { skip } from "node:test";
 
 const navigation = [
-  { name: "Expirence", href: "/expirence" },
+  { name: "Experience", href: "/experience" },
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];

@@ -6,12 +6,6 @@ import { Navigation } from "../components/nav";
 
 const socials = [
   {
-    icon: <InstagramIcon size={20} />,
-    href: "https://www.instagram.com/riyam_shah/",
-    label: "Instagram",
-    handle: "@riyam_shah",
-  },
-  {
     icon: <Mail size={20} />,
     href: "mailto:riyam.jain.3@gmail.com",
     label: "Email",

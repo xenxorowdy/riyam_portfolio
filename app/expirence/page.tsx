@@ -32,7 +32,7 @@ const Expirence = () => {
   return (
      <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
        <Navigation/>
-    <div className=" py-3 px-4 sm:px-6 md:px-8">
+    <div className=" py-8 px-4 sm:px-6 md:px-8">
       <h3 className="text-lg sm:text-xl font-semibold text-zinc-200 my-10 text-center">
         Expirence
       </h3>

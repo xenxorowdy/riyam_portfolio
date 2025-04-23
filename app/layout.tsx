@@ -7,12 +7,12 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
   title: {
     default: "Riyam Jain",
-    template: "%s | riyam.com",
+    template: "%s | https://riyam-portfolio.vercel.app/",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Full Stack Developer with 4+ years building scalable web & mobile app",
   openGraph: {
     title: "riyam.com",
-    description: "Co-founder of unkey.dev and founder of planetfall.io",
+    description: "Full Stack Developer with 4+ years building scalable web & mobile app",
     url: "https://riyam.com",
     siteName: "riyam.com",
     images: [

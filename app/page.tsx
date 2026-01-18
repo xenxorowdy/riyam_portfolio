@@ -35,9 +35,7 @@ export default function Home() {
       </h1>
       <div className="my-16 text-center animate-fade-in w-[90vw] md:w-[50vw] mx-auto">
         <h2 className="text-xs sm:text-sm md:text-base text-zinc-500 text-center">
-          Full Stack Developer with 4+ years building scalable web & mobile
-          apps. Expert in Next.js, React, and Node. Focused on clean code and
-          elegant solutions that prioritize users.
+          As a Full Stack Developer with over 4 years of comprehensive experience, I excel in architecting, building, and scaling web and mobile applications. My expertise lies in developing RESTful APIs and cloud-native architectures, coupled with a passion for performance optimization. I am dedicated to delivering user-focused solutions that significantly enhance business outcomes through measurable results.
         </h2>
       </div>
     </div>

@@ -6,5 +6,10 @@
   .text-edge-outline {
     -webkit-text-stroke: 1px rgba(255,255,255,0.3);
   }
+  
+  /* Hide empty Next.js portals with zero dimensions */
+  nextjs-portal[data-cursor-element-id] {
+    pointer-events: none;
+  }
 } 
 

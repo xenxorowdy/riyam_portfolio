@@ -28,7 +28,7 @@ export default async function ProjectPage({ params }: Props) {
 	if (!params || !params.slug) {
 		notFound();
 	}
-	
+
 	const slug = params.slug;
 	const project = allProjects.find((project) => project.slug === slug);
 

@@ -11,11 +11,11 @@ export function PortalCleanup() {
 		const cleanup = () => {
 			// Find all nextjs-portal elements
 			const portals = document.querySelectorAll("nextjs-portal");
-			
+
 			portals.forEach((portal) => {
 				const element = portal as HTMLElement;
 				const rect = element.getBoundingClientRect();
-				
+
 				// Remove portals with zero dimensions or no content
 				if (
 					(rect.width === 0 && rect.height === 0) ||
@@ -31,7 +31,7 @@ export function PortalCleanup() {
 
 		// Run cleanup after a short delay to ensure DOM is ready
 		const timeoutId = setTimeout(cleanup, 100);
-		
+
 		// Also run on DOM mutations (in case portals are added dynamically)
 		const observer = new MutationObserver(cleanup);
 		observer.observe(document.body, {
